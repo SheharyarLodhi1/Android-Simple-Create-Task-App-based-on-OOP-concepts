@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/add_icon"
+        android:orderInCategory="100"
+        android:icon="@drawable/add_cricle_icon"
+        app:showAsAction="always"
+        android:title="add_tasks"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/done_icon"
+        android:orderInCategory="100"
+        android:icon="@drawable/done_icon"
+        app:showAsAction="always"
+        android:title="done"
+        android:visible="true" />
+
+</menu>
